@@ -1,0 +1,7 @@
+Aufgabe 1.5
+Algorithmen? y/n
+Ein Algorithmus ist eine eindeutige Handlungsvorschrift zur Lösung eines Problems und besteht aus endlich vielen, wohldefinierten Einzelschritten.
+(a) Der Zähler n wird ausgehend vom Wert 0 in jedem Schritt um 3 erhöht. Falls der Zähler den Wert der größten Primzahl kleiner 1000000 erreicht hat, geben wir "Hello World!" aus.
+--> Algorithmus, da eindeutige Handlungsvorschrft, die allerdings nicht erreicht werden kann (da die Primzahl nicht durch 3 teilbar ist, dh es wird nie Hello World ausgegeben)
+(b) Zur Lösung des Problems, ob sich eine gegebene Landkarte so mittels drei Farben einfärben lässt, dass je zwei auf der KArte benachbarte Länder unterschiedlich gefärbt sind, raten wir einfach eine Einfärdbung der Karte und prüfen dann, ob die geratene Färbung die genannte Bedingung erfüllt.
+--> kein Algorithmus! Raten ist keine eindeutige Handlungsvorschrift, sprich nicht nachvollziehbar, da jeder vermutlich unterschiedliches raten würde.
