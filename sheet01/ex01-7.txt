@@ -1,0 +1,21 @@
+Aufgabe 1.7
+============
+
+>>> type('6+6j - 8+3j')
+<class 'str'>
+>>> type(6+6j - 8+3j)
+<class 'complex'>
+>>> type(6+6j *3)
+<class 'complex'>
+>>> type(6+8j + 33)
+<class 'complex'>
+>>> type(0.5*0.5)
+<class 'float'>
+>>> type(0.5*7)
+<class 'float'>
+>>> type(0.5*(8-6j))
+<class 'complex'>
+>>> type(2+2)
+<class 'int'>
+>>> type(3*89)
+<class 'int'>
