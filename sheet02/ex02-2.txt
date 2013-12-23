@@ -1,0 +1,59 @@
+Aufgabe 2.2
+============
+
+Aufgabe 2.2(a)
+--------------
+>>> def cels_to_fahrenh(x):
+...     fahrenh = ((x * 9) / 5) +32
+...     return fahrenh
+... 
+>>> celsEingabe = input("Geben Sie hier bitte Ihre Temperatur in Celsius ein: ")
+Geben Sie hier bitte Ihre Temperatur in Celsius ein: 35
+>>> fahrenh = cels_to_fahrenh(celsEingabe)
+>>> print(("Das sind %.4f Fahrenheit") % (fahrenh))
+Das sind 95.0000 Fahrenheit
+
+Aufgabe 2.2(a)
+--------------
+
+def cels_to_fahrenh(x):
+    fahrenh = ((x * 9) / 5) +32
+    return fahrenh
+
+def print_ctof_table(x, y, z):
+    print("----------------------")
+    print(" Celsius   Fahrenheit ")
+    print("----------------------") 
+    if x > y or z < 0:
+        f = cels_to_fahrenh(x)
+        x = round(x, 1)
+        f = round(f, 1)
+        x = float(x)
+        if x < 10:
+            print("   ", x, "\u00B0C", "       ", f, "\u00B0F", sep='')
+        else:
+            if f < 100:
+                print("  ", x, "\u00B0C", "       ", f, "\u00B0F", sep='')
+            else:
+                print("  ", x, "\u00B0C", "      ", f, "\u00B0F", sep='')
+    while x < y and z > 0:
+        f = cels_to_fahrenh(x)
+        x = round(x, 1)
+        f = round(f, 1)
+        x = float(x)
+        if x < 10:
+            print("   ", x, "\u00B0C", "       ", f, "\u00B0F", sep='')
+        else:
+            if f < 100:
+                print("  ", x, "\u00B0C", "       ", f, "\u00B0F", sep='')
+            else:
+                print("  ", x, "\u00B0C", "      ", f, "\u00B0F", sep='')
+        x = x + z
+    print("----------------------")
+    
+
+
+
+
+
+
